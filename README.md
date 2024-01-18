@@ -1,45 +1,12 @@
 # Todo Example
 
-Stack:
-
-* Hono
-* JSX (Hono middleware)
-* htmx
-* Zod
-* Cloudflare Workers
-* Cloudflare D1
-
-## Usage
-
-Install:
-
-```
-npm install
+```sh
+wrangler d1 execute todo --local --file=db/schema.sql
 ```
 
-Setup:
-
-```
-wrangler d1 create todo
-wrangler d1 execute todo --local --file=todo.sql
-```
-
-Dev:
-
-```
-npm run dev
-```
-
-Deploy:
-
-```
-npm run deploy
-```
-
-## Author
-
-Yusuke Wada
-
-## License
-
-MIT
+## References
+- https://github.com/yusukebe/hono-htmx
+- https://github.com/paskdn/htmljs-todo-example
+- https://htmx.org/docs/
+- https://www.scaler.com/topics/sql/sql-validator/
+- https://codepen.io/robstinson/pen/YzGLMYw
